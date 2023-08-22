@@ -57,7 +57,7 @@ func (l Logger) Error(msg string, fields ...zap.Field) {
 }
 
 func (l Logger) Fatal(msg string, fields ...zap.Field) {
-	l.writer().Error(msg, fields...)
+	l.writer().Fatal(msg, fields...)
 }
 
 func (l Logger) writer() *zap.Logger {
