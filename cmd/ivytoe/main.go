@@ -1,7 +1,7 @@
 package main
 
 import (
-	"example/taylormonacelli/dandybear/ivytoe"
+	"github.com/taylormonacelli/ivytoe"
 	"os"
 )
 
