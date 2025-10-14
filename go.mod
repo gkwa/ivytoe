@@ -2,7 +2,7 @@ module github.com/taylormonacelli/ivytoe
 
 go 1.23
 
-toolchain go1.25.2
+toolchain go1.25.3
 
 require (
 	github.com/rogpeppe/go-internal v1.14.1
