@@ -5,7 +5,7 @@ go 1.25
 toolchain go1.26.5
 
 require (
-	github.com/rogpeppe/go-internal v1.15.0
+	github.com/rogpeppe/go-internal v1.16.0
 	go.uber.org/zap v1.28.0
 )
 
